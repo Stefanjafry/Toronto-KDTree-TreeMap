@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyCharm project settings
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Matplotlib, IPython, etc.
+.matplotlib/
+.ipynb_checkpoints/
+
+# Logs and temp files
+*.log
+*.tmp
