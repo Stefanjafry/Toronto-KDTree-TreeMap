@@ -1,8 +1,8 @@
-Toronto KDTree TreeMap
+Toronto KDTree TreeMap:
 
 This project implements an object-oriented spatial indexing system using a KD-Tree to efficiently query and visualize municipal tree data from the City of Toronto. It includes an interactive map interface that allows users to click on locations and retrieve the nearest tree based on geospatial coordinates.
 
-Overview
+Overview:
 
 The application showcases:
 
@@ -14,7 +14,7 @@ A Model-View-Controller (MVC)-inspired architecture separating data modeling (KD
 
 Interactive spatial querying using Matplotlib and event listeners
 
-Key Components
+Key Components:
 
 MunicipalTree: Represents a single tree with its ID, ward, species, diameter, and geolocation. Includes a method to compute Euclidean distance to a given point.
 
@@ -28,7 +28,7 @@ user_code.py: Launches the program by reading data, building the KDTree, and sta
 
 autotester.py: Contains test functions to validate correctness of nearest neighbor logic, distance calculations, KDTree structure, and sorting.
 
-File Structure
+File Structure:
 
 data/
 
@@ -47,7 +47,7 @@ requirements.txt : Python dependencies
 .gitignore : Files and directories excluded from Git tracking
 README.md : Project documentation (this file)
 
-Setup Instructions
+Setup Instructions:
 
 Clone the repository
 
@@ -60,7 +60,7 @@ python -m venv .venv
 On Windows: .venv\Scripts\activate
 On Mac/Linux: source .venv/bin/activate
 
-Install dependencies
+Install dependencies:
 
 pip install -r requirements.txt
 
@@ -76,6 +76,6 @@ To run the built-in test suite:
 
 python autotester.py
 
-License
+License:
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute the code.
